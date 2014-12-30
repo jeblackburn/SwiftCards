@@ -14,6 +14,8 @@
 		FC1EA9221A522DF600AFE36E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1EA9211A522DF600AFE36E /* Images.xcassets */; };
 		FC1EA9251A522DF600AFE36E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1EA9231A522DF600AFE36E /* LaunchScreen.xib */; };
 		FC1EA9311A522DF700AFE36E /* SwiftCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1EA9301A522DF700AFE36E /* SwiftCardsTests.swift */; };
+		FCF8C82B1A5246A4004929EF /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C82A1A5246A4004929EF /* Deck.swift */; };
+		FCF8C82D1A5246B2004929EF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C82C1A5246B2004929EF /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		FC1EA92A1A522DF700AFE36E /* SwiftCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1EA92F1A522DF700AFE36E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1EA9301A522DF700AFE36E /* SwiftCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCardsTests.swift; sourceTree = "<group>"; };
+		FCF8C82A1A5246A4004929EF /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		FCF8C82C1A5246B2004929EF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 				FC1EA9231A522DF600AFE36E /* LaunchScreen.xib */,
 				FC1EA9191A522DF600AFE36E /* SwiftCards.xcdatamodeld */,
 				FC1EA9151A522DF600AFE36E /* Supporting Files */,
+				FCF8C82E1A5246DB004929EF /* Model */,
 			);
 			path = SwiftCards;
 			sourceTree = "<group>";
@@ -113,6 +118,15 @@
 				FC1EA92F1A522DF700AFE36E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCF8C82E1A5246DB004929EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCF8C82A1A5246A4004929EF /* Deck.swift */,
+				FCF8C82C1A5246B2004929EF /* Card.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF8C82B1A5246A4004929EF /* Deck.swift in Sources */,
 				FC1EA91D1A522DF600AFE36E /* ViewController.swift in Sources */,
+				FCF8C82D1A5246B2004929EF /* Card.swift in Sources */,
 				FC1EA9181A522DF600AFE36E /* AppDelegate.swift in Sources */,
 				FC1EA91B1A522DF600AFE36E /* SwiftCards.xcdatamodeld in Sources */,
 			);
@@ -409,6 +425,7 @@
 				FC1EA9361A522DF700AFE36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1EA9371A522DF700AFE36E /* Build configuration list for PBXNativeTarget "SwiftCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				FC1EA9391A522DF700AFE36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
